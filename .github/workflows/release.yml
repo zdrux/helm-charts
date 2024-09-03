@@ -29,7 +29,7 @@ jobs:
 
       - name: Update dependencies
         run: |
-          helm dependency update
+          cd charts && helm dependency update
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.6.0
