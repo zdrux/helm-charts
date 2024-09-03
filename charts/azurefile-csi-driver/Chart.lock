@@ -1,0 +1,6 @@
+dependencies:
+- name: azurefile-csi-driver
+  repository: https://raw.githubusercontent.com/kubernetes-sigs/azurefile-csi-driver/master/charts
+  version: v1.30.5
+digest: sha256:b5d443244ea75c1b521606ad14fd998c2cead579257fefc6d5f32f31d1b12657
+generated: "2024-09-03T18:21:12.10384203Z"
