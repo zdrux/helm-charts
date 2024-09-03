@@ -1,9 +1,0 @@
-dependencies:
-- name: nginx-ingress
-  repository: https://helm.nginx.com/stable
-  version: 1.3.2
-- name: cert-manager
-  repository: https://charts.jetstack.io
-  version: v1.15.3
-digest: sha256:53dae9cd0c2de33285517eb18274f3a920dfdcdcb07a1808c63977b28d6e9fd8
-generated: "2024-09-03T17:58:50.158299684Z"
