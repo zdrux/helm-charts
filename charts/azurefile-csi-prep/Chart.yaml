@@ -22,7 +22,3 @@ version: 0.1.0
 # follow Semantic Versioning. They should reflect the version the application is using.
 # It is recommended to use it with quotes.
 appVersion: "1.16.0"
-dependencies:
-- name: azurefile-csi-driver
-  version: v1.30.5
-  repository: https://raw.githubusercontent.com/kubernetes-sigs/azurefile-csi-driver/master/charts
