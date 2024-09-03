@@ -1,0 +1,13 @@
+tenantId: tenant_id
+subscriptionId: sub_id
+resourceGroup: rg
+location: loc
+clientId: client_id
+clientSecret: client_secret
+namespace: kube-system
+
+azurefile-csi-driver:
+  controller.cloudConfigSecretName: azure-cloud-provider
+  controller.cloudConfigSecretNamespace: kube-system
+  node.cloudConfigSecretName: azure-cloud-provider
+  node.cloudConfigSecretNamespace: kube-system
