@@ -1,7 +1,0 @@
-tenantId: tenant_id
-subscriptionId: sub_id
-resourceGroup: rg
-location: loc
-clientId: client_id
-clientSecret: client_secret
-namespace: kube-system
