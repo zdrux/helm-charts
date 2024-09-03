@@ -3,6 +3,20 @@ entries:
   k8sbase:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-09-03T01:23:33.869760006Z"
+    dependencies:
+    - name: azurefile-csi-driver
+      repository: https://raw.githubusercontent.com/kubernetes-sigs/azurefile-csi-driver/master/charts
+      version: v1.30.5
+    description: A Helm chart for Kubernetes
+    digest: ae741cc1ae1e55f318bf2b93caa96f163ce86f9f9b491162c801b125d6bdf5e3
+    name: k8sbase
+    type: application
+    urls:
+    - https://github.com/zdrux/helm-charts/releases/download/k8sbase-0.1.2/k8sbase-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-09-03T01:17:51.011855761Z"
     description: A Helm chart for Kubernetes
     digest: 9f589cf6a4dad86a0ba3d1abeaf245b6973815805d01c1c90c7e6d83a9b23a73
@@ -25,4 +39,4 @@ entries:
     urls:
     - https://github.com/zdrux/helm-charts/releases/download/k8sbase-0.1.0/k8sbase-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-03T01:17:51.011865209Z"
+generated: "2024-09-03T01:23:33.869775665Z"
