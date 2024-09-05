@@ -1,0 +1,25 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    nginx.ingress.kubernetes.io/backend-protocol: HTTPS
+  name: k8s-dashboard-ingress
+  namespace: k8s-dashboard
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: dashboard.zdrux.com
+    http:
+      paths:
+      - backend:
+          service:
+            name: k8s-dashboard-kong-proxy
+            port:
+              number: 443
+        path: /
+        pathType: Prefix
+  tls:
+  - hosts:
+    - dashboard.zdrux.com
+    secretName: k8s-dashboard-certs-tls
