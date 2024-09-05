@@ -4,6 +4,8 @@ metadata:
   name: k8s-dashboard
   namespace: argocd
   argocd.argoproj.io/sync-wave: "30"
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     namespace: k8s-dashboard

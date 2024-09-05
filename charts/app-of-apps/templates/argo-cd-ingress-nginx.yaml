@@ -4,6 +4,8 @@ metadata:
   name: ingress-nginx
   namespace: argocd
   argocd.argoproj.io/sync-wave: "20"
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     namespace: nginx
