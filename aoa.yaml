@@ -10,9 +10,6 @@ spec:
   project: default
   source:
     chart: app-of-apps
-    helm:
-      valueFiles:
-      - values.yaml
     repoURL: https://zdrux.github.io/helm-charts
     targetRevision: v0.1.1
   syncPolicy:
