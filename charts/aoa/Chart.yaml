@@ -1,5 +1,5 @@
 apiVersion: v2
-name: App of apps
+name: app-of-apps
 description: Installs cert-manager with letsencrypts Cluster issuers, NGINX ingress, and pipelines.
 
 # A chart can be either an 'application' or a 'library' chart.
