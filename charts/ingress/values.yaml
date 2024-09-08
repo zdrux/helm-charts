@@ -1,0 +1,5 @@
+ingressname: default
+namespace: default
+hostname: default
+servicename: default
+serviceport: 8080

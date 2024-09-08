@@ -1,0 +1,10 @@
+kind: Secret
+apiVersion: v1
+metadata:
+  name: git-pull
+  namespace: filefly
+  annotations:
+    tekton.dev/git-0: github.com
+data:
+  ssh-privatekey: LS0tL...tLS0tLQo=
+type: kubernetes.io/ssh-auth
