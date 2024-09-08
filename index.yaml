@@ -102,6 +102,16 @@ entries:
     urls:
     - https://github.com/zdrux/helm-charts/releases/download/cert-manager-0.1.0/cert-manager-0.1.0.tgz
     version: 0.1.0
+  ingress:
+  - apiVersion: v2
+    created: "2024-09-08T19:13:49.827390817Z"
+    description: Creates and instruments an Ingress object for specific namespace.
+    digest: e3785c82d2df8c3149be0f0d50ceffd6b22a10f439d68547d24185ac1300ed68
+    name: ingress
+    type: application
+    urls:
+    - https://github.com/zdrux/helm-charts/releases/download/ingress-0.1.0/ingress-0.1.0.tgz
+    version: 0.1.0
   k8sbase:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -141,4 +151,4 @@ entries:
     urls:
     - https://github.com/zdrux/helm-charts/releases/download/k8sbase-0.1.0/k8sbase-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-05T02:46:20.772199193Z"
+generated: "2024-09-08T19:13:49.82740864Z"
