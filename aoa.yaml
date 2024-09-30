@@ -11,7 +11,7 @@ spec:
   source:
     chart: app-of-apps
     repoURL: https://zdrux.github.io/helm-charts
-    targetRevision: v0.1.4
+    targetRevision: v0.1.7
   syncPolicy:
     automated: {}
     syncOptions:
