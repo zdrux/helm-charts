@@ -4,6 +4,7 @@ metadata:
   annotations:
     cert-manager.io/cluster-issuer: letsencrypt-prod
     nginx.ingress.kubernetes.io/backend-protocol: HTTPS
+    argocd.argoproj.io/hook: PreSync
   name: k8s-dashboard-ingress
   namespace: k8s-dashboard
 spec:
