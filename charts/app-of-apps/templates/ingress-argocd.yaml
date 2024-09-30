@@ -4,6 +4,7 @@ metadata:
   annotations:
     cert-manager.io/cluster-issuer: letsencrypt-prod
     nginx.ingress.kubernetes.io/backend-protocol: HTTPS
+    argocd.argoproj.io/hook: PostSync
   name: ingress-argocd
   namespace: argocd
   argocd.argoproj.io/sync-wave: "100"
