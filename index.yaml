@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   app-of-apps:
   - apiVersion: v2
+    created: "2024-09-30T15:19:59.391005444Z"
+    description: Installs cert-manager with letsencrypts Cluster issuers, NGINX ingress,
+      and pipelines.
+    digest: 8be8a00554b01a205967d30231e8cef277fc10efefba1dfc1f154c6af09ba05b
+    name: app-of-apps
+    type: application
+    urls:
+    - https://github.com/zdrux/helm-charts/releases/download/app-of-apps-0.2.0/app-of-apps-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     created: "2024-09-30T14:54:25.747315645Z"
     description: Installs cert-manager with letsencrypts Cluster issuers, NGINX ingress,
       and pipelines.
@@ -201,4 +211,4 @@ entries:
     urls:
     - https://github.com/zdrux/helm-charts/releases/download/k8sbase-0.1.0/k8sbase-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-30T14:54:25.747380236Z"
+generated: "2024-09-30T15:19:59.391059094Z"
