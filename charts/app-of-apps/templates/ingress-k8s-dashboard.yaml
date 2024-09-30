@@ -5,6 +5,7 @@ metadata:
     cert-manager.io/cluster-issuer: letsencrypt-prod
     nginx.ingress.kubernetes.io/backend-protocol: HTTPS
     argocd.argoproj.io/hook: PostSync
+    argocd.argoproj.io/sync-wave: "50"
   name: k8s-dashboard-ingress
   namespace: k8s-dashboard
 spec:
