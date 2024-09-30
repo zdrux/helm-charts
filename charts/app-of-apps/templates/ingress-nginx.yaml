@@ -3,6 +3,8 @@ kind: Application
 metadata:
   name: ingress-nginx
   namespace: argocd
+  annotations:
+    argocd.argoproj.io/hook: PreSync
 spec:
   destination:
     namespace: nginx
